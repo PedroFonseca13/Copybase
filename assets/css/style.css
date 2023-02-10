@@ -7,3 +7,11 @@ html, body {
   background-color: gainsboro;
   font-family: 'Courier New', Courier, monospace;
 }
+
+.input__search {
+  /* width: 100%; */
+  outline: none;
+  border: 2px solid #333;
+  border-radius: 5px;
+  box-shadow: -3px 4px 0 #888, -5px 7px #333;
+}
