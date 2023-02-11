@@ -15,15 +15,31 @@
 </head>
 <body>
   <main>
+    <div class="container">
+      <div class="img">
+        <img src="./assets/img/poke.webp" alt="">
+      </div>
+      <hr>
+      <form class="form">
+      <label for="pokemon">Digite o nome ou número do pokémon</label>
+      <input
+        type="search"
+        class="input__search"
+        name="pokemon"
+        id="pokemon"
+        placeholder="Exemplo: 25 ou Pikachu"
+      >
+      <button type="submit">Procurar</button>
+      </form>
 
-    <label for="pokemon">Digite o nome do pokémon</label>
-    <input type="search" class="input__search">
-
-    <h1>
-      <span class="pokemon__name"></span> -
-      <span class="pokemon__id"></span>
-    </h1>
-
+      <div class="card">
+        <h3>
+          <span class="pokemon__name"></span> -
+          <span class="pokemon__id"></span>
+        </h1>
+        <img src="" alt="imagem do pokém" class="pokemon__img">
+      </div>
+    </div>
   </main>
 </body>
 </html>
